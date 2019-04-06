@@ -1,0 +1,190 @@
+body {
+	background-image: url(img/sfondo.jpg);
+	background-size: cover;
+    font-family: 'Sarabun', sans-serif;
+	margin: auto;
+    text-align: center;
+    color: black;
+}
+
+/* Intestazione */
+h1 {
+    font-family: 'Great Vibes', cursive;
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 25px;
+    font-size: 38px;
+}
+
+.nota{
+    margin: 50px 53px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* Singoli blocchi  */
+.infosing {
+    border: solid 2px;
+    border-radius: 12px;
+    padding: 5px;
+    width: 18%;
+    height: 456px;
+    margin-left: 11px;
+    background-color: #fff;
+    opacity: 0.7;
+    float: left;
+    text-align: left;
+    line-height: 23px;
+}
+
+h4 {
+    margin: 18px 21px 14px;
+}
+
+/* Divisore con scelta delle immagini */
+.divisore{
+    width: 35%;
+    margin: 4% 32% 3%;
+}
+
+#cart1, #cart2, #cart3 {
+    display:none;
+}
+
+.scegli img {
+    height: 24vw;
+    margin-right: -77px;
+}
+
+.scegli img:hover {
+	opacity: 0.7;
+}
+
+.btn{
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    right: 70px;
+    bottom: 75px;
+    background-color: #fff;
+    color: #000;
+    font-size: 31px;
+    padding: 12px 24px;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* BLOCCHI A COMPARSA */
+/* Titolo iniziale */
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 42px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 2% 35%;
+    padding:18px 0px 12px 0px;
+}
+
+/* Contenitore immagini */
+.contimg {
+    margin-left: 6%;
+}
+
+.contimg img {
+	width: 25vw;
+    height: 40vw;
+    margin-right: 6px;
+    margin-left: 4px;
+    border: solid 1px;
+    float:left;
+}
+
+/* Blocco fronte/retro */
+.fronte, .retro {
+    margin-right: 5%; 
+    float:right;
+    background-color: #fff;
+    opacity:0.8;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+
+.fronte {
+    margin-bottom:16px;
+    width: 31%;
+    height: 55px;
+}
+
+.retro {
+    width: 31%;
+    height: 453px;
+}
+
+.retro b {
+    float: left;
+    margin-left: 36px;
+}
+
+.testo_cartolina{
+    line-height: 17px;
+    text-align: justify;
+    margin-left: 36px;
+}
+
+
+.contenuto_dx{
+    margin-left: 162px;
+    margin-top: 17px;
+}
+
+.contenuto{
+    line-height: 7px;
+    margin-top: 16px;
+}
+
+#cart_138_02, #cart_190_02{
+    margin-top: 35px;
+}
+
+#cart_121_18, #cart_190_13, #cart_190_14 {
+    font-size: x-small;
+    transform: rotate(180deg);
+    text-align: left;
+    margin-right: 28px;
+    font-style: italic;
+}
+
+#cart_190_06{
+    font-size: x-small;
+}
+
+#cart_138_06 {
+    transform: rotate(270deg);
+    float: right;
+    font-size: x-small;
+    margin-top: 8px;
+}
+
+.francobolli{
+    margin: 40px 15px 28px -30px;
+    width: 100px;
+    border: solid 2px;
+    float: left;
+    padding: 4px;
+}
+
+#hr{
+    float: left;
+    width: 367px;
+    margin: 0px -26px 0px 20px;
+}
+
+/* Blocchi invisibili */
+.invisibile{
+    display: none;
+}
+
+
+
+
